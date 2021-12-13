@@ -1,0 +1,44 @@
+baseURL = "https://xega.org/sexo+seguro/"
+languageCode = "es-ES"
+defaultContentLanguage = "es"
+defaultContentLanguageInSubdir= true
+theme = "learn"
+title = "Guía de sexo más seguro"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[author]
+  name = "Asociación XEGA"
+
+[params]
+  editURL = "https://gitlab.com/xega-org/safer-sex/blob/master/content/"
+  description = "Con esta guía sólo queremos informarte sobre cómo proteger tu salud y la de aquellas personas con quienes tienes relaciones sexuales."
+  showVisitedLinks = false
+  disableInlineCopyToClipBoard = true
+  disableAssetsBusting = false
+  themeVariant = "blue"
+  themeColor = "#1694ca"
+  googleTagManager = "GTM-5QZT3BG" # Google Tag Manager for xega.org/es (Web)
+
+[Languages]
+  [Languages.en]
+    weight = 2
+    languageCode = "en-US"
+    languageName = "English"
+    title = "Safer sex guide"
+    description = "With this guide we only want to inform you about how to protect your health and that of those people with whom you have sex."
+    googleTagManager = "GTM-MDTTXKP" # Google Tag Manager for xega.org/en (Web)
+    
+    [Languages.en.author]
+      name = "XEGA Association"
+
+  [Languages.es]
+    weight = 3
+    languageName = "Español"
+
+  [Languages.ast]
+    weight = 1
+    languageCode = "ast-ES"
+    languageName = "Asturianu"
+    googleTagManager = "GTM-KC6H8TN" # Google Tag Manager for xega.org/ast (Web)
